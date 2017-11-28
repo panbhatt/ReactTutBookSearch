@@ -15,7 +15,6 @@ export default class SearchBox extends React.Component {
       event.preventDefault();
       var searchText = this.input.controlEl.value;
       this.props.onChange(searchText);
-
   }
 
   render() {
